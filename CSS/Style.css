@@ -1,0 +1,473 @@
+
+*{
+    box-sizing : border-box ;
+}
+body{
+    width : 100% ;
+    font-family : Tahoma ;
+    font-size : 17px ;
+
+}
+
+/* Menu */
+.menu-slide{
+    width : 100% ;
+    height : 900px ;
+    background-color : rgba(138, 167, 101, 0.5) ;
+    background : url(../images/slide.jpg) ;
+}
+/* Menu left */
+.menu{
+    width : 100% ;
+    height : 60px;
+    background :rgba(162, 165, 158, 0.5) ;                                                                
+    justify-content: space-between;
+ 
+}
+
+#logo-left{
+    color : #fff ;
+    margin: -5px  25px 10px 70px;
+    font-size: 45px ;
+    padding-top : -15px ;
+}
+
+.logo_right{
+    border-left: 1px solid #fff ;
+    margin-bottom: 50px ;
+    padding-left: 10px;  
+}
+.logo_right h6{
+    color:rgb(245, 180, 14) ;
+}
+/*menu right*/
+.nav-menu{
+    list-style: none;
+    display : flex ;
+    margin-top : 5px ;
+}
+
+.nav_head{
+    color : #000 ;
+    padding :18px ;
+    font-size : 13px ;
+    margin-right: 10px;
+} 
+
+/*Menu-content*/
+.menu-content{
+    width : 100%; 
+    height : 450px ;
+    margin :225px auto ;
+}
+.lk-icon{
+    Width : 100% ;
+    padding-top : 20px ;
+ 
+}
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-decoration: none;
+    margin : 10px auto ;
+    border-radius: 50%;  
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+.content{
+    Width : 100% ;
+    color : #000 ;
+    text-align : center ;
+    
+}
+.content #Healthy{
+    font-size : 30px ; 
+    padding-top :20px ;
+    color : #fff;
+}
+.content #Store{
+    font-size : 60px ;
+    color : #fff;
+}
+.text{
+    width : 500px ;
+    padding-top : 20px ;
+    text-align : center ;
+    margin : auto ;
+    color : rgb(189, 189, 176)
+}
+/* about us */
+#about{
+    height : 900px ;
+    color : rgba(64, 65, 63, 0.5);
+    margin : 0 12% ;
+}
+.about-head{
+    padding-top: 70px  ;
+}
+.about-head span{
+    color : #000 ;
+    font-size : 45px ;
+}
+.about-head p{
+    width : 500px ;
+    text-align : center ;
+    margin: auto  ;
+    padding-top : 20px  ;
+}
+#about .row{
+    margin-top : 40px ;
+}
+#about .row .col-5{
+    display : flex ;
+}
+#about .row .col-5 .about-img1{
+    text-align : left ;
+    box-shadow: -2px -2px 5px #7b7b7b;
+}
+#about .row .col-5 .about-img2 img{
+    width : 380px ;
+    height : 225px ;
+    margin-left : -290px  ;
+    margin-top : 300px ;
+     
+}
+#about .row .col-7{
+    text-align : left ;
+}
+#about .row .col-7 h2{
+    color : red ;
+}
+/* About Store */
+.ab-store{
+    background-color:#d7dfe4;
+    padding :50px 0 ;
+}
+.ab-store .row{
+    display : flex ;
+    margin : 0 12% ;
+}
+.ab-store .row .ab-left{
+    text-align : left ;
+    width : 100% ;
+    color : rgba(12, 15, 9, 0.5) ;
+    flex : 1 ;
+    padding-right : 0px ;
+
+}
+.col-6 h2 , h6{
+    color: #c50e1f; 
+}
+.col-6 .ab-button, #text-button{
+    height : 45px ;
+    width : 100px ;
+    line-height : 45px ;
+    text-align : center ;
+    color : #fff ;
+    background: #212529;
+    
+}
+.row .col-6 img{
+    padding-left : 50px ;
+    width : 100% ;
+    height : 300px ;
+}
+/* Services */
+#services{
+
+    color : rgba(40, 41, 39, 0.5) ;
+}
+/* sv-banner */
+.services-head{
+    padding-top: 70px  ;
+}
+.services-head span{
+    color : #000 ;
+    font-size : 45px ;
+}
+.services-head p{
+    width : 500px ;
+    text-align : center ;
+    margin: auto  ;
+    padding-top : 20px  ;
+}
+#services .sv-content{
+    padding-top : 60px ;
+    padding-bottom: 60px;  
+}
+#services .sv-content .sv-images{
+    margin : 30px 12% ;
+    display : flex ;
+}
+#services .sv-content .sv-images .sv-img{
+    box-shadow: 1px 1px 7px #a2a2a2;
+}  
+.sv-img .content h5{
+    color: #3b9974;
+}
+.sv-img .content p{
+color : rgba(40, 41, 39, 0.5) ;
+}
+/* sv-top */
+.sv-images .sv-img:hover{
+    background-color : #ffc107 ;
+}
+.sv-images .sv-img1, .sv-img2{
+
+    flex : 1 ;
+    margin-right : 30px ;
+
+}
+
+.sv-images .sv-img3{
+    flex : 1 ;
+
+}
+.sv-images .sv-img1 img, .sv-img2 img, .sv-img3 img{
+    padding : 30px 0 20px ;
+    border-radius : 50% ;
+}
+
+/* sv-botton */
+.sv-images .sv-img4, .sv-img5 {
+
+    flex : 1 ;
+    margin-right : 30px ;
+
+}
+
+.sv-images .sv-img6{
+    flex : 1 ;
+}
+.sv-images .sv-img4 img, .sv-img5 img, .sv-img6 img{
+    padding : 30px 0 20px ;
+    border-radius : 50% ;
+}
+/* Sv-footer */ 
+/* Sv-footer-left */
+.sv-footer{
+    height : 600px ;
+    padding :80px 12% ; 
+    background-color:#d7dfe4;
+}
+.sv-footer .row {
+    height : 440px ;
+}
+
+.sv-footer .row .col-7 img{ 
+    height : 450px ;
+    width : 100% ;
+}
+/* Sv-footer-right */
+.sv-footer .row .col-5 .row{
+    height : 100px ;
+    margin : 0 45px 7px 45px ;
+    color : rgba(40, 41, 39, 0.5) ;
+}
+.row .right-text{
+    text-align : right ;
+    font-size : 18 ;
+    padding-right: 15px ;
+
+}
+.row .right-text h5{
+    color: #3b9974;
+}
+/* Gallery */
+#gallery{
+
+    color : rgba(40, 41, 39, 0.5) ;
+}
+/* ga-banner */
+.gallery-head{
+    padding-top: 70px  ;
+}
+.gallery-head span{
+    color : #000 ;
+    font-size : 45px ;
+}
+.gallery-head p{
+    width : 500px ;
+    text-align : center ;
+    margin: auto  ;
+    padding-top : 20px  ;
+}
+/* ga-images */
+#gallery .ga-content{
+    padding-top : 60px ;
+    padding-bottom: 60px;
+    margin : 0 12% ;
+}
+#gallery .ga-content .row .col-4 img{
+        width : 370px ;
+        padding-bottom: 25px;
+}
+/* Blog */
+#blog{
+    background-color:#d7dfe4;
+    color : rgba(40, 41, 39, 0.5) ;
+}
+.blog-head{
+    padding-top: 70px  ;
+}
+.blog-head span{
+    color : #000 ;
+    font-size : 45px ;
+}
+.blog-head p{
+    width : 500px ;
+    text-align : center ;
+    margin: auto  ;
+    padding-top : 20px  ;
+}
+/* blog-content */
+#blog .row{
+    margin : 0 12% ;
+}
+#blog .row .col-4 .bl{
+    display : flex ;
+}
+#blog .row .col-4 .bl img{
+    width : 360px ; 
+    padding : 60px 0 25px ;
+}
+
+.bl .jul{
+    background : orange ;
+    width : 75px;   
+    height : 80px ;
+    margin-left : -366px ;
+    margin-top : 70px ;
+} 
+#blog .row .col-4 .bl .bl-left{
+    background : #fff;
+    width : 335px ;
+    margin-top: 210px ;
+    margin-left: -55px ;
+    text-align : left ;
+    padding : 20px 25px 20px 26px ;
+
+}
+
+#blog .row .col-4 .bl .bl-left a{
+    color: #3b9974; 
+}
+.bl-left .bl-list ul, li{
+    display : flex ;
+    text-decoration: none;
+    padding-left : 0px ;
+    padding-right : 8px ;
+    color : red ;
+}
+
+/* Get in touch */
+#get{
+    color : rgba(40, 41, 39, 0.5) ;
+    margin : 0 12% ;
+}
+.get-head{
+    padding-top: 70px  ;
+}
+.get-head span{
+    color : #000 ;
+    font-size : 45px ;
+}
+.get-head p{
+    width : 500px ;
+    text-align : center ;
+    margin: auto  ;
+    padding-top : 20px  ;
+}
+.get-content {
+    margin-top : 60px ;
+}
+.get-content .row{
+    padding-bottom: 12px;
+}
+.send{
+    margin-right : 100% ;
+    padding-bottom: 60px ;
+}
+.send .btn-primary{
+    background : rgb(211, 32, 32) ;
+    width : 80px ;
+}
+.form-control{
+    border : 0px solid #fff ;
+    border-bottom: 2px solid #3b9974;
+}
+/* Footer */
+.footer{
+
+    background: url(../images/footer.jpg) ;
+    width : 100% ;
+    height : 461px ;
+}
+.footer .row{
+    margin : 0 12% ;
+    text-align : left ;
+    
+}
+
+.footer .row .col-4 h3{
+    color: yellow ;
+    padding : 60px 0 20px ;
+
+}
+.footer .row .col-4 p{
+    width : 230px ;
+    color : red	;  
+}
+
+.new form{
+    display : flex ;
+    padding-bottom: 10px;
+}
+ .new .seach-mail{
+    width :400px ;
+    margin-right : 2px ;
+}
+.new .mail{
+    background : red ;
+    color : #fff;
+    width : 80px ;
+    height : 37px ;
+    line-height :37px;
+    text-align : center ;
+}
+.footer .row .col-4 .new p{
+    width : 400px ;
+}
+.bt_muiTen svg{
+    color : #fff ;
+    font-size : 100px ;
+    padding-bottom:30px;
+}
+/* footer-bottom */
+.footer-bottom{
+    height : 80px ;
+    line-height : 80px;
+    text-align : center ;
+    color : #fff ;
+    background : #000 ;
+}
+.footer-bottom a{
+    color : orangered ;
+}
+
+      
